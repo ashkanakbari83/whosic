@@ -31,7 +31,7 @@ function ArtistCard({ artist, onClick }) {
         </div>
       </div><div className="flex items-center justify-between mt-4">
         <div className="flex gap-2">
-          <div className="followers-pill">{artist.followers} followers</div>
+          <div className="followers-pill">{artist.followers} دنبال کننده</div>
           
         </div>
         <button className="info_btn" onClick={() => onClick(artist)}>اطلاعات بیشتر</button>
