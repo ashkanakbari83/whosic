@@ -1,16 +1,100 @@
-# React + Vite
+# 🎵 Whosic — Music Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Music Discovery Platform** built with **React**.  
+Whosic allows users to explore Iranian and international artists through an elegant glassmorphism-inspired interface, view artist details, discover popular albums, and enjoy a clean and interactive user experience.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38bdf8?logo=tailwindcss)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎤 Browse **Iranian** and **International** artists
+- 🔍 Artist cards with modern glassmorphism UI
+- 📖 Interactive modal with detailed artist information
+- 💿 Album showcase and top streamed songs
+- 📱 Fully responsive layout for desktop and mobile
+- 🎨 Custom dark theme with gradient backgrounds
+- ⚡ Built with reusable React components
+- ➕ Expand / Collapse artist sections ("Show More")
+- ❤️ Easy to extend with APIs and additional features
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **CSS3**
+- **Vite**
+- Component-Based Architecture
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/          # Fonts and static assets
+├── components/      # Reusable UI components (optional)
+├── data.js          # Artist and album data
+├── App.jsx          # Main application component
+├── App.css          # Global styles
+├── main.jsx         # Entry point
+└── index.css
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or newer)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/whosic.git
+
+# Enter the project folder
+cd whosic
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+---
+
+## 🎯 Future Improvements
+
+- [ ] Search artists by name
+- [ ] Filter by genre and country
+- [ ] Favorite artists with Local Storage
+- [ ] API integration (Spotify / Last.fm)
+- [ ] Artist profile pages with React Router
+- [ ] Theme switcher (Dark / Light)
+- [ ] Loading skeletons and animations
+- [ ] Backend integration for dynamic content
+
+---
+
+## 💡 What I Learned
+
+While building this project, I practiced and improved my skills in:
+
+- React component architecture
+- State management with `useState`
+- Conditional rendering
+- Dynamic rendering with `.map()`
+- Responsive UI design
+- Glassmorphism and modern interface design
+- Project organization and reusable components
+
+---
